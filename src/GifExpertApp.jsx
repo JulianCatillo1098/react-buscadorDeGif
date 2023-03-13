@@ -15,7 +15,7 @@ export const GifExpertApp = () => {
   return (
     <>
    
-      <h1>Buscador de gif</h1>
+      <h1>Buscador de gif </h1>
 
       <AddCategory nuevoValor={agregagarCategoria} />
 
@@ -23,6 +23,7 @@ export const GifExpertApp = () => {
         return  <GifGrid category={cadaElemntoDeLaCategoria} key={cadaElemntoDeLaCategoria} />;
       
       })}
+      <p>Julian Castillo </p>
     </>
   );
 };
