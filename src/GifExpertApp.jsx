@@ -4,7 +4,7 @@ import { GifGrid } from "./components/GifGrid";
 import { SorteoApp } from "./components/SorteoApp";
 
 export const GifExpertApp = () => {
-  const [categorias, setCategorias] = useState([""]);
+  const [categorias, setCategorias] = useState([]);
 
   const agregagarCategoria = (categoriaEscrita) => {
     if (categorias.includes(categoriaEscrita)) return;
